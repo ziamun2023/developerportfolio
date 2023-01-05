@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+.text-primary {
+    color: #FD6E0A;
+}
+.btn-primary{
+    color: white;
+    background-color: #FD6E0A;
+    border-radius: 5px;
+    height: 64px;
+    font-size: 20px;
+    font-weight: 700;
+    border: 0;
+    padding: 18px 35px;
+
+}
+
+.header{
+    background: #FFF8F3;
+    background-image: url(../images/header_bg.png) ,url(../images/developer.png);
+    background-repeat: no-repeat;
+    background-position: bottom right,left;
+
+   
+   
+ 
+    
+
+}
+
+
+
+
+/* header and navigation */
+.nav-title{
+    font-weight: 800;
+    font-size: 45px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 200px;
+    
+}
+nav ul{
+    display: flex;
+    align-items: center;
+
+}
+nav ul li{
+    list-style: none;
+    margin-left: 50px ;
+}
+
+/* banner design */
+.banner{
+    display: flex;
+    margin: 0 200px;
+    align-items: center;
+
+}
+
+.banner-title{
+font-size: 75px;
+font-weight: 700;
+}
+
+.banner-main_title{
+font-weight: 600;
+font-size: 38px;
+margin-bottom: 20px;
+}
+
+.banner-description{
+    color: #757575;
+    font-size: 18px;
+    margin-bottom: 30px ;
+}
+/* main design */
+main{
+    background-color: white;
+    max-width: 1140px;
+    margin: 0px auto;
+}
+/* section design */
+
+.about{
+margin-top: 130px;
+border: 1px solid black;
+border-radius: 5px;
+background: #FFF8F3;
+padding: 130px 150px;
+text-align: center;
+}
+.section-title{
+    text-align: center;
+    margin-bottom: 30px;
+    margin-bottom: 10px;
+   
+
+}
+.section-description{
+ color: #757575;
+ font-size: 18px;
+   
+}
+
+/* about info design */
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 25px;
+}
+.about-info{
+    padding: 0 10px;
+}
+.info-title{
+    margin-top: 5px;
+    margin-bottom: 20px;
+    color: #757575;
+    font-size: 20px;
+}
+.info-description{
+    color: #474747;
+    font-weight: 700;
+    font-size: 20px;
+}
