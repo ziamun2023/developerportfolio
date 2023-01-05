@@ -17,12 +17,30 @@
     padding: 18px 35px;
 
 }
+.foot{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 120px;
+    margin-top: 100px;
+}
+.btn-primary-foot{
+    color: white;
+    background-color: #FD6E0A;
+    border-radius: 5px;
+    height: 64px;
+    font-size: 20px;
+    font-weight: 700;
+    border: 0;
+    padding: 18px 35px;
+}
 
 .header{
     background: #FFF8F3;
     background-image: url(../images/header_bg.png) ,url(../images/developer.png);
     background-repeat: no-repeat;
     background-position: bottom right,left;
+    margin-top: -43px;
 
    
    
@@ -83,7 +101,7 @@ margin-bottom: 20px;
 /* main design */
 main{
     background-color: white;
-    max-width: 1140px;
+    max-width: 1000px;
     margin: 0px auto;
 }
 /* section design */
@@ -130,3 +148,72 @@ text-align: center;
     font-weight: 700;
     font-size: 20px;
 }
+
+
+/* section 2 skill deisgn */
+.what-i-do{
+    margin-top: 90px;
+}
+.skill-title{
+    font-weight: 700;
+    font-size: 16px;
+
+}
+
+.skill-container{
+    display: flex;
+    gap: 24px;
+}
+
+.skill{
+    padding: 30px;
+    border: 2px solid gray;
+    box-shadow: 10px 5px 5px rgb(81, 77, 77);
+     
+}
+.skill-title,.skill-description{
+    margin-top: 19px;
+    
+}
+.section-title{
+    text-align: center;
+    margin-bottom: 50px;
+    font-weight: 700;
+    font-size: 30px;
+    
+}
+.summary-head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.resume-style{
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.summ{
+    padding: 10px 120px;
+    text-align: left;
+}
+.sumtale{
+
+ 
+}
+.sumhead{
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.sumtitle{
+    font-weight: 20px;
+    color: #c46018;
+}
+p .skill-description{
+    font-size: 10px;}
+
+    .sumtale{
+        font-size: 10px;
+    }
