@@ -23,6 +23,7 @@
     font color: black;
 
   }
+
  
 .foot{
     align-items: center;
@@ -52,13 +53,20 @@
     background-repeat: no-repeat;
     background-position: bottom right,left;
     margin-top: -43px;
+    height: 130%;
 
    
-   
- 
-    
 
 }
+.photo{
+    position: relative;
+    left: 40px;
+    top: -14px;
+    scale: 1.4
+
+}
+
+
 
 
 
@@ -90,6 +98,8 @@ nav ul li{
     display: flex;
     margin: 0 200px;
     align-items: center;
+    padding: 45px;
+    position: relative;
 
 }
 
@@ -230,4 +240,3 @@ p .skill-description{
     }
 
   
-    
