@@ -17,6 +17,13 @@
     padding: 18px 35px;
 
 }
+
+  .btn-primary:hover{
+    background-color: rgb(39, 11, 3);
+    font color: black;
+
+  }
+ 
 .foot{
     align-items: center;
     display: flex;
@@ -34,7 +41,11 @@
     border: 0;
     padding: 18px 35px;
 }
+.btn-primary-foot:hover{
+    background-color: rgb(39, 11, 3);
+    font color: black;
 
+  }
 .header{
     background: #FFF8F3;
     background-image: url(../images/header_bg.png) ,url(../images/developer.png);
@@ -217,3 +228,6 @@ p .skill-description{
     .sumtale{
         font-size: 10px;
     }
+
+  
+    
