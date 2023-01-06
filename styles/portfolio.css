@@ -49,11 +49,13 @@
   }
 .header{
     background: #FFF8F3;
-    background-image: url(../images/header_bg.png) ,url(../images/developer.png);
+    background-image: url(../images/header_bg.png),url(../images/developer.png) ;
     background-repeat: no-repeat;
-    background-position: bottom right,left;
+    background-position: bottom right,left 50px;
     margin-top: -43px;
     height: 130%;
+    background-size: 50%,5%;
+   
 
    
 
@@ -102,6 +104,7 @@ nav ul li{
     position: relative;
 
 }
+
 
 .banner-title{
 font-size: 75px;
@@ -240,3 +243,40 @@ p .skill-description{
     }
 
   
+  .contact{
+
+    background: #FFF8F3;
+    
+   display: flex;
+   gap: 100px;
+    padding: 120px 250px;
+}
+.form{
+    display: block;
+    
+}
+.form input{
+    padding: 5px 0;
+    margin: 10px;
+    
+}
+textarea{
+    margin-left: 9px;
+    margin-top: 9px;
+
+}
+.form .form-title{
+    margin-top: auto;
+}
+.form-header{
+    padding-bottom: 0px;
+    margin: -50px 0 20px 0;
+}
+.contact-title ,
+.contact-description{
+    margin: 20px;
+
+}
+.contact-item a{
+    margin-left: 13px;
+}
